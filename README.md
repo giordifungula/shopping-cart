@@ -1,2 +1,1 @@
-# shopping-cart
-shoping cart page
+# simple_shopping_cart

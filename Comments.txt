@@ -1,0 +1,11 @@
+****
+  In task 15
+- compulsory Taks 1
+- I think one thing through this Task, that I wanted to implement was -
+- I had a event listener on my HTML elements when you clicked on these I had functions that I wanted to run.
+- But I wanted those functions to be inside another function for Example. My document.ready function for the jquery should contain all my code and functions inside.
+- but because I am running other event listeners as soon as I click them they are not defined because they are inside another function(document.ready function or any onload functions) .
+- I then only added the jquery code inside the document.ready function, so that my Other functions can load and work.
+- Please can I be advised how to get around these situations in future thanks.
+
+****

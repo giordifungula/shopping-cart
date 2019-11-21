@@ -1,0 +1,208 @@
+body {
+    overflow-x: hidden;
+    background: linear-gradient(to left, rgb(224, 217, 217), rgb(16, 194, 61));
+    margin: 0 auto;
+    /* centers the body and gives a background gradient */
+}
+.no-color {
+    background: none ;
+
+    /* remove the background on some pages */
+}
+.dark-color {
+    /* dark color for the text that has the  white background*/
+    color: #000 !important;
+
+}
+
+/* headings and text*/
+
+h2 {
+    font-style: italic;
+    /* color: rgb(144, 177, 165); */
+    font-family: 'Courier New', Courier, monospace;
+    /* H2 font style and family styles */
+}
+
+h4 {
+    font-style: initial;
+    color: rgb(223, 210, 210);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* H4 font style and family styles */
+}
+
+.top {
+    background-image: url("https://images.pexels.com/photos/399187/pexels-photo-399187.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    /* Full height */
+    height: 400px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    /* background image added */
+    margin: 1em;
+}
+
+/* Images and Table Styling */
+
+img {
+    filter: grayscale(100%);
+    /* Filter effect of image */
+}
+
+img, table {
+    border: 1px solid #eee;
+    /* Border for Images and Table */
+}
+
+.table {
+    background: #000;
+    color: #fff;
+    /* Table background color and text color */
+}
+
+/* Card Imgaes */
+.card {
+    margin: 0 auto;
+    width: 100% !important;
+    /* width added of full card-content */
+    /* center the card and cart item with image inside */
+}
+.card img {
+    width: 200px;
+    margin: 20px auto;
+    transition: 0.5s ease-in;
+    /* cart items image */
+}
+
+.card img:hover {
+    transform: scale(1.1);
+    /* expand image on hover */
+}
+
+button, img {
+    padding: 10px;
+    /* Images and buttons are padded */
+}
+
+/* Different Font styling */
+
+.card-text {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card-title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Floated content */
+
+.left, .right {
+    font-size: 50px;
+    text-align: center;
+    background: transparent;
+    border: 1px solid #eee;
+    height: 200px;
+    padding: 50px;
+    font-weight: 800;
+    /* left content and right content center both boxes  */
+}
+
+.left {
+    float: left;
+    /* Float left content  */
+}
+
+.right {
+    float: right;
+    /* Float right content  */
+}
+
+.container::after {
+    clear: both;
+    display: block;
+    content: "";
+    /* inside the about page , I floated 2 boxes inside a container */
+}
+
+/* Lists */
+
+ul li {
+    list-style: none;
+    font-size: 20px;
+    /* Customised list items  */
+}
+
+/* Cart Content */
+.cart-header {
+
+    /* Cart Items once added to Cart Section */
+    font-size: 2.1em;
+    margin: 10px;
+    border-bottom: 1px solid rgb(83, 75, 75);
+}
+.cart-row {
+    display: flex;
+    /* Cart row display in one line */
+}
+.cart-column {
+    display: flex;
+    align-items: center;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    /* cart item column that contains img, name and price */
+}
+
+.cart-item {
+    width: 300px;
+    /* width of the cart item that is added */
+}
+
+/* Shop Images will be hidden */
+.shop-img {
+    /* ; */
+    /* display:  */
+}
+
+.shop-img  {
+    /* overflow: hidden; */
+    /* display: none; */
+    /* margin-left:0px; */
+    /* animation base styles */
+}
+
+.row {
+    display: inline !important;
+    margin: 0 auto !important;
+}
+
+.col-md-3 {
+    /* margin: 0 auto; */
+}
+.shop-items {
+    display:flex !important;
+}
+
+.mb-0 {
+    color: #fff;
+}
+
+.footer {
+    background: #000 !important;
+    /*  Footer tag  */
+    padding: 10px;
+}
+
+.team-section {
+    display: flex !important;
+}
+
+/* Content section */
+.content-section {
+    /* margin: 0 1em; */
+    padding: 10px;
+}
